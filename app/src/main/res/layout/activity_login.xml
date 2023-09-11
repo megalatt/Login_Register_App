@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login_Register_App"
+        android:textColor="#E31313"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new Account"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+
+        android:textColor="#750707" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/usernameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background"
+            android:text="LOGIN"
+            android:textColor="#F6EEEE"
+            app:cornerRadius="40dp"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:id="@+id/createText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User? Create Account"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+
+            android:textColor="#750707" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+</RelativeLayout>
