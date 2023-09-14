@@ -1,9 +1,8 @@
 # Login_Register_App
-This app contains Dashboard,Menu bar,Navigation Drawer , Login Page,Register Page ,OTP Verification Page
-![image](https://github.com/megalatt/Login_Register_App/assets/135943948/bf13d275-759c-4df5-94cf-77e68ef891fb)
-![image](https://github.com/megalatt/Login_Register_App/assets/135943948/04b08d7b-447a-4bce-885f-f56d31cce8de)
-![image](https://github.com/megalatt/Login_Register_App/assets/135943948/ca2bb23e-081f-4284-ae2a-2d0b55dd8074)
-![image](https://github.com/megalatt/Login_Register_App/assets/135943948/e579b4e7-3509-434c-beec-0c13acfc85c6)
+This app contains Login page,Register page Forgot password Firebase Authentication and Grid Layout design
+![image](https://github.com/megalatt/Login_Register_App/assets/135943948/508b1fce-6d0b-4b83-9403-710a092761c2)
+![image](https://github.com/megalatt/Login_Register_App/assets/135943948/06f203cf-b1c9-4d65-8bb7-b651d6c47a60)
+![image](https://github.com/megalatt/Login_Register_App/assets/135943948/8f346f0b-fda6-4ec0-9790-99ed0df80bb0)
+This app Developed by Megala U/Technical Trainer
 
-This app Developed by Megala U /Technical Trainer
 
